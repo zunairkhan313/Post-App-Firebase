@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+#main{
+    margin-top: 140px;
+    padding: 20px;
+    height: 100%;
+    width:300px ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    box-shadow: 5px 5px 4px 0px gray;
+}
+#file{
+    border: 1px solid black;
+ 
+}
+#btn{
+    color: white;
+    background-color: rgba(0, 0, 255, 0.795);
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+#name{
+    border-radius: 2px;
+}
+#number{
+    border-radius: 2px; 
+}
+#file{
+    border-radius: 2px; 
+    
+}
+#myimg{
+    border: none;
+   
+}
+#main1{
+    border: 1px solid black;
+    width:300px ;
+display: none;
+border-radius: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+    <center>
+
+        <div id="main">
+            
+        
+            <input type="text" name="" id="name" placeholder="Name"><br>
+            <input type="text" name="" id="number" placeholder="description"><br>
+        <input type="file" name="" id="file"><br>
+        <button id="btn">Post</button>
+        <br><br>
+    </div>
+
+        <br><br>
+
+        <h2>Output</h2>
+        <div id="main1">
+
+            <img src="" alt="" id="myimg" width="300px" style="border-radius: 10px;">
+            <br>
+            <h2 id="show1"></h2>
+            <p id="show2"></p>
+            <button style="padding-left: 30px;padding-right:30px ;padding-top: 5px;padding-bottom: 5px;color: white;background-color: rgba(0, 0, 255, 0.795);border: none;border-radius: 5px;">Add Post</button>
+            <br><br>
+
+        </div>
+    
+</center>
+<script type="module" src="./main.js" defer></script>
+</body>
+</html>
